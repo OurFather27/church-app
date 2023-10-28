@@ -11,7 +11,7 @@
 }
 .ourMission{
 	width:80%;
-	height: 300px;
+	height: auto;
 	background-color: rgb(15 26 63);
 	margin: auto;
 	margin-top: 7%;
@@ -25,7 +25,7 @@
 }
 .OUR-VALUES{
 	width:80%;
-	height: 300px;
+	height:auto;
 	background-color: white;
 	margin: auto;
 	margin-top: 7%;
@@ -35,4 +35,19 @@
 	text-align: center;
 	color:rgb(15 26 63);
 	font-size: 50px;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+.ourMission{
+	width: 95%;
+	align-items: center;
+}
+.container-about{
+	width: 95%;
+	margin: auto;
+}
+.OUR-VALUES{
+	width: 95%;
+}
 }
