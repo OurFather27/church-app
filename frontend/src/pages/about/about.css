@@ -1,5 +1,5 @@
 .container-about{
-	width:50%;
+	width:80%;
 	height: 300px;
 	background-color: white;
 	opacity: 60%;
@@ -8,6 +8,9 @@
 	font-size: 50px;
 	color: rgb(15 26 63);
 	font-family: inherit;
+}
+.container-about h2{
+	animation: fadein 7s ;
 }
 .ourMission{
 	width:80%;
@@ -21,6 +24,7 @@
 	text-align: center;
 	color:white;
 	font-size: 50px;
+
 
 }
 .OUR-VALUES{
@@ -40,14 +44,14 @@
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 .ourMission{
-	width: 95%;
+	width: auto;
 	align-items: center;
 }
 .container-about{
-	width: 95%;
+	width: auto;
 	margin: auto;
 }
 .OUR-VALUES{
-	width: 95%;
+	width: auto;
 }
 }

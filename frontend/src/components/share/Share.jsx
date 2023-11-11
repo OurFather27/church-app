@@ -24,11 +24,11 @@ export default function Share() {
       newPost.img = fileName;
       console.log(newPost);
       try {
-        await axios.post("https://churchbackend.onrender.com/api/upload", data);
+        await axios.post("https://churchbackend.onrender.com/upload", data);
       } catch (err) {}
     }
     try {
-      await axios.post("https://churchbackend.onrender.com/api/posts", newPost);
+      await axios.post("https://churchbackend.onrender.com/posts", newPost);
       window.location.reload();
     } catch (err) {}
   };
@@ -70,7 +70,7 @@ export default function Share() {
 
           </div>
           <button className="shareButton" type="submit">
-            Share
+            post and upload
           </button>
         </form>
       </div>

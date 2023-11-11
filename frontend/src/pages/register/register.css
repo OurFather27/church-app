@@ -4,25 +4,21 @@
   background-color: ;
   margin: auto;
 }
-
-.loginWrapper {
-  width: 70%;
-  height: 70%;
-  margin: auto;
-}
 .loginLogo{
-    font-size: 70px;
+    font-size: 40px;
     text-align: center;
     padding: 0px;
-    font-family:revert-layer;
+    font-family:arial;
     margin-top: 7%;
     position: relative;
     left: -4%;
+    color: rgb(15 26 63);
 }
 
 .loginBox{
     width: 80%;
     height: 400px;
+    margin: auto;
     padding: 20px;
     background-color: rgb(15 26 63);
     border-radius: 50px;
@@ -64,7 +60,7 @@
 }
 
 .loginRegisterButton{
-    width: 60%;
+    width: 100%;
     align-self: center;
     height: 50px;
     border-radius: 10px;
@@ -74,4 +70,50 @@
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+}
+@media only screen 
+and (min-device-width : 240px) 
+and (max-device-width : 719px)
+{
+.loginLogo{
+    font-size: 25px;
+ }
+.loginRegisterButton{
+    width: 100%;
+}
+.login{
+    width: 100%;
+}
+.loginBox{
+    margin: auto;
+}
+
+}
+@media only screen 
+and (min-device-width : 240px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+ {
+.login{
+    width: 100%;
+
+}
+}
+@media only screen 
+and (min-device-width : 882px) 
+and (max-device-width : 1024px)
+{
+.login{
+    width: 100%;
+}
+
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+
+.loginBox{
+    width:80%;
+    margin: auto;
+}
 }
